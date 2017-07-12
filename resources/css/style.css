@@ -1,0 +1,49 @@
+html {
+  font-size: 18px;
+  background-color: white;
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+head {
+  display: none;
+}
+
+@media only screen and (max-width:1024px) {
+  body {
+    font-size: 16px;
+  }
+}
+body {
+  margin: 0px;
+  display: block;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4em;
+}
+.company {
+  background-color: black;
+  color: white;
+}
+div {
+  display: block;
+}
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 12px 0.5em;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.company {
+  background-color: black;
+  color: white;
+}
+.company img {
+  height: 1.5em;
+  padding-right: 15px;
+}
+img {
+  border-style: none;
+}
